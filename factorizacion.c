@@ -1,0 +1,1 @@
+m=2;main(n){for(scanf("%d",&n);n;n%m?m++:(n/=m,printf("%d\n",m),m=2));}

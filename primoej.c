@@ -1,0 +1,1 @@
+main(a,b){for(scanf("%d",&b);b%++a;);a/=b;}

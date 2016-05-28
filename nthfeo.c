@@ -1,0 +1,1 @@
+n=2,d=2;main(i){for(scanf("%d",&i);i-=n==d;)n%d<1?n++,d=2:d++;printf("%d\n",n);}
