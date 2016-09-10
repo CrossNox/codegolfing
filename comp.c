@@ -17,7 +17,7 @@ extern int failure_count;
 #define M (~0U>>1)
 int comparar(int x, int y) {
 	x-=y;y=M;
-	for(;x--&&y--;);
+	for(;x&&y;x--,y--);
 	return(!x&&!(y-M)?0:x?1:-1);
 }
 
